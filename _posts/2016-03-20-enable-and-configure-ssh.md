@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Enable & Configure SSH"
-date: 20150320 15:31:31
+date: 20160320 15:31:31
 categories: unit01
 ---
 
-By default Fedora 21 doesn't have ssh enabled.  So let's fix that. 
+By default Fedora 21 doesn't have ssh enabled.  So let's fix that.
 
 ```bash
 su -

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Networking, Config & Services"
-date: 20150407 15:31:31
-categories: unit04
+date: 20150321 15:31:31
+categories: unit01
 ---
 
 Networking, System configuration, services, and tools. Administrating Linux servers.

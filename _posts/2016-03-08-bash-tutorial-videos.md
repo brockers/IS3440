@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Bash Video Tutorials"
-date: 20150508 15:31:31
-categories: unit08
+date: 20150308 15:31:31
+categories: unit01
 ---
 
 Below are some really good bash video tutorials for practice and profit.
