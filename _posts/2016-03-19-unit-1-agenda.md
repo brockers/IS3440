@@ -30,3 +30,4 @@ categories: unit01
 * [Internet Archive, Wayback Machine](http://archive.org/web/web.php)
 * [John Draper, aka Capt'n Crunch ](https://en.wikipedia.org/wiki/John_Draper)
 * [A Brief History of Hacking](http://www.businessinsider.com/black-hat-hacking-2011-12?op=1)
+* [GnuPG Tutorial](http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto.html)
