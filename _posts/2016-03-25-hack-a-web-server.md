@@ -19,4 +19,4 @@ the server remains on-line and responsive.
 
 Upon success you will receive a golden penguin.
 
-* [The Most Secure Website in the Universe](/docs/example_one/)
+* [The Most Secure Website in the Universe](docs/example_one/)
