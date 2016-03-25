@@ -8,25 +8,25 @@ categories: unit02
 Lots and lots about Crpyto today.  Security news and encryption including methods.  Overview of topic material I would like to cover during the course of the class.
 
 * Cryptography
-	* Hashing (Uni-directional Crypto)
+	* One-way Crypto [Hashing & Digests](https://en.wikipedia.org/wiki/Comparison_of_cryptographic_hash_functions)
 		* SHA 1/2/256
 		* MD5
 		* BCrypt
-	* Symmetric Key Crypto
+	* Symmetric Key Crypto [Bidirectional Crypto](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
 		* DES
 		* 3DES
-		* AES
-	* Shared Key (or Public Key Crypto)
+		* AES  (implements the Rijndael Cipher)
+	* Shared Key [Public Key Crypto] (https://en.wikipedia.org/wiki/Comparison_of_cryptographic_hash_functions)
 		* RSA
 		* ECC
 		* GnuPG
-	* Other Crypto Topcs
+	* Other Crypto Topics
 		* Diffie–Hellman key exchange
 		* Rainbow Tables
 		* Password Salting
 		* Password Haystacking & Brute Force Attacks
-* Super Extra Stuff
-	* nethack
+		* One-time Pad
+		* Entropy and Randomness
 
 ### Additional Stuff
 
