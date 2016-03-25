@@ -34,3 +34,4 @@ Lots and lots about Crpyto today.  Security news and encryption including method
 * [Mr. Rockers Public Key](https://transfer.sh/5UIKE/rrockers.asc)
 * [Kali Linux (formerly Backtrack Linux)](https://www.kali.org/)
 * [Diffie-Hellman with Paint](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/427px-Diffie-Hellman_Key_Exchange.svg.png)
+* [GnuPG Tutorial](http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto.html)
