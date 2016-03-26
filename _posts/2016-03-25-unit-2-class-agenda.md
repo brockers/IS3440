@@ -36,3 +36,4 @@ Lots and lots about Crpyto today.  Security news and encryption including method
 * [Diffie-Hellman with Paint](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/427px-Diffie-Hellman_Key_Exchange.svg.png)
 * [GnuPG Tutorial](http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto.html)
 * [Gibson Research Password Haystacks](https://www.grc.com/haystack.htm)
+* [Broswer Cripto Support](https://www.ssllabs.com/ssltest/viewMyClient.html)
