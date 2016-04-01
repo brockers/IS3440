@@ -18,10 +18,12 @@
 				args[aname] = tmp[1];
 			}
 
-			if ( args["login"] === 'NO' ){
-				alert("Bad username or password.  try again");
-			} else {
-				window.location.href = "./" + args['login'] + ".html";
+			if ( "login" in args ) {
+				if ( args["login"] === 'NO' ) {
+					alert("Bad username or password.  try again");
+				} else {
+					window.location.href = "./" + args['login'] + ".html";
+				}
 			}
 		});
 	</script>
