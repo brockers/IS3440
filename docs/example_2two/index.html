@@ -21,7 +21,7 @@
 			if ( "login_success" in args ) {
 				if ( args["login_success"] === 'NO' ) {
 					console.log("Bad username or password.  try again");
-					$(".messages").show(200);
+					$(".messages").show();
 				} else {
 					window.location.href = "./22_" + args['login_success'] + "2.html";
 				}
