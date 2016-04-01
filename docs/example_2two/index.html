@@ -21,7 +21,7 @@
 			if ( "login_success" in args ) {
 				if ( args["login_success"] === 'NO' ) {
 					console.log("Bad username or password.  try again");
-					$(#message).show();
+					$(".messages").show();
 				} else {
 					window.location.href = "./22_" + args['login_success'] + "2.html";
 				}
@@ -44,6 +44,6 @@
 	</ul>
 </form>
 </section>
-	<div id="message" style="display:none">Bad username or password.  Try again.</div>
+	<div class="messages">Bad username or password.  Try again.</div>
 </body>
 </html>
