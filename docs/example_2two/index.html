@@ -9,15 +9,18 @@
 	<!-- validation script, do NOT look here.  YOU DIDN'T SEE ANYTHING!!! -->
 	<script>
 		$( document ).ready( function() {
-			if ( x==null || x=="" || y==null || y=="" ){
-				alert("Username or password was left blank...");
+			var args = {};
+			var url = window.location.search;
+			var arglist = url.split("&");
+			for ( var i = 0; i < search.length; i++ ){
+				var tmp = search[i].split("="); args{tmp[0]} = tmp[1];
+			}
+
+			if ( args{"login"} === 'NO' ){
+				alert("Bad username or password.  try again");
 				return false;
 			} else {
-				if( authList[x] === y ) {
-					window.location.href = "./success.html";
-				} else {
-					alert("Bad username or password... please try again.");
-				}
+				window.location.href = "./" + args{'login'} + ".html";
 			}
 		});
 	</script>
@@ -29,9 +32,9 @@
 	<ul>
 		<li><label for="usermail">Username</label>
 		<input type="email" name="username" placeholder="JohnSmith" required></li>
-			<input type="hidden" name="login" value="NO">
 		<li><label for="password">Password</label>
 		<input type="password" name="password" placeholder="password" required></li>
+		<input type="hidden" name="login" value="NO">
 		<li>
 		<input type="submit" value="Login"></li>
 	</ul>
