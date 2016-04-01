@@ -9,6 +9,11 @@ body {
 	background-color:#34495e;
 }
 
+#message {
+	color: #f22;
+	font-weight: bold;
+}
+
 .loginform label {
 	display: block;
 	color: #333;
