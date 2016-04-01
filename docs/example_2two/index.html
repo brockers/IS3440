@@ -13,12 +13,13 @@
 			var url = window.location.search;
 			var arglist = url.split("&");
 			for ( var i = 0; i < search.length; i++ ){
-				var tmp = search[i].split("="); args{tmp[0]} = tmp[1];
+				var tmp = search[i].split("=");
+				var aname = tmp[0];
+				args[aname] = tmp[1];
 			}
 
 			if ( args{"login"} === 'NO' ){
 				alert("Bad username or password.  try again");
-				return false;
 			} else {
 				window.location.href = "./" + args{'login'} + ".html";
 			}
