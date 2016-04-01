@@ -10,10 +10,10 @@
 	<script>
 		$( document ).ready( function() {
 			var args = {};
-			var url = window.location.search;
-			var arglist = url.split("&");
-			for ( var i = 0; i < search.length; i++ ){
-				var tmp = search[i].split("=");
+			var myurl = window.location.search;
+			var arglist = myurl.split("&");
+			for ( var i = 0; i < arglist.length; i++ ){
+				var tmp = arglist[i].split("=");
 				var aname = tmp[0];
 				args[aname] = tmp[1];
 			}
