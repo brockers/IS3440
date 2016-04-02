@@ -11,9 +11,9 @@ seen some __REALLY BAD__ websites do this.
 
 ### Object
 
-The company wanting you to check their website were not happy with how easily
+The company wanting you to check their website was not happy with how easily
 it was done last time.  They have buckled down and made a newer, even
-__MORE__ secure website this tie.  The goals is the same as last week.
+__MORE__ secure website this time.  The goals is the same as last week.
 
 You have been tasked with gaining access to a restricted page of a company
 website.  Breaking or making the system unresponsive is **not** the intent.
