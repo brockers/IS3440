@@ -6,9 +6,9 @@ $( document ).ready( function() {
 			authlist[key]= val;
 		});
 		
-	}
+	});
 
-	function validateForm(){
+	var validateForm = function(){
 		var x=document.forms["login"]["username"].value;
 		var y=document.forms["login"]["password"].value;
 		if ( x==null || x=="" || y==null || y=="" ){
