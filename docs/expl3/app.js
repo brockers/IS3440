@@ -14,13 +14,14 @@ $( document ).ready( function() {
 		if ( x==null || x=="" || y==null || y=="" ){
 			$(".messages").show();
 			return false;
-		} else {
+		} else if ( x in authList ) {
 			if( authList[x][0] === y ) {
 				window.location.href = authList[x][1];
 			} else {
-				alert("Bad username or password... please try again.");
 				$(".messages").show();
 			}
+		} else {
+			$(".messages").show();
 		}
 	});
 });
