@@ -12,13 +12,14 @@ $( document ).ready( function() {
 		var x=document.forms["login"]["username"].value;
 		var y=document.forms["login"]["password"].value;
 		if ( x==null || x=="" || y==null || y=="" ){
-			alert("Username or password was left blank...");
+			$(".messages").show();
 			return false;
 		} else {
 			if( authList[x][0] === y ) {
 				window.location.href = authList[x][1];
 			} else {
 				alert("Bad username or password... please try again.");
+				$(".messages").show();
 			}
 		}
 	});
