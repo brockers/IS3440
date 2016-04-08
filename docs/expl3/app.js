@@ -5,10 +5,10 @@ $( document ).ready( function() {
 		$.each( data, function(key,val){
 			authlist[key]= val;
 		});
-		
+
 	});
 
-	var validateForm = function(){
+	$( "#login_btn" ).click ( function(){
 		var x=document.forms["login"]["username"].value;
 		var y=document.forms["login"]["password"].value;
 		if ( x==null || x=="" || y==null || y=="" ){
@@ -21,5 +21,5 @@ $( document ).ready( function() {
 				alert("Bad username or password... please try again.");
 			}
 		}
-	}
+	});
 });
