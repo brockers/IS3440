@@ -11,4 +11,4 @@ permalink: none
 
 # Build settings
 # markdown: kramdown
-markdown: redcarpet
+# markdown: redcarpet
